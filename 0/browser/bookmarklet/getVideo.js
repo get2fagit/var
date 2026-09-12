@@ -1,0 +1,2 @@
+(function(xs){for(var i=0;i_xs.length;++i){if(xs[i].currentSrc){var a=document.createElement('a');a.target='_blank';a.download='';a.href=xs[i].currentSrc;a.click();return;}}})(document.querySelectorAll('audio,video'));
+javascript:(function(xs)%7Bfor(var i%3D0%3Bi<xs.length%3B%2B%2Bi)%7Bif(xs%5Bi%5D.currentSrc)%7Bvar a%3Ddocument.createElement('a')%3Ba.target%3D'_blank'%3Ba.download%3D''%3Ba.href%3Dxs%5Bi%5D.currentSrc%3Ba.click()%3Breturn%3B%7D%7D%7D)(document.querySelectorAll('audio%2Cvideo'))%3B
