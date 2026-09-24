@@ -1,0 +1,8 @@
+
+!         Keep Multi Only
+! ##div.item:not(:has(.icon_multi.icon))
+! ##.item:not(:has(.icon_multi)):remove()
+##.item:not(:has(.icon_multi)):remove()
+
+!         Unlock the page
+! ##body,html:style(overflow: auto !important;)
